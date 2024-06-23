@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url("../img/bghero.png") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.content p {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.about {
+    background: #fff;
+    padding: 50px 0;
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+}
+
+.column.left img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.column.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.column.right h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.column.right p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.column.right button {
+    background-color: #4B0082;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.projects {
+    background: #f9f9f9;
+    padding: 50px 0;
+}
+
+.projects .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+}
+
+.project {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.project img {
+    width: 80%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+footer {
+    background: linear-gradient(45deg, black, darkblue);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.2em;
+}
+/* styles.css */
+
+#blowButton {
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    outline: none;
+
+
+  }
+  
+  #blowButton:hover {
+    transform: scale(1.1);
+  }
+
+
